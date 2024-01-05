@@ -50,6 +50,7 @@ app.use("/friends", function auth(req,res,next){
     }
 });
 
+//login system
 app.post("/login", (req,res) => {
   const username = req.body.username;
   const password = req.body.password;
